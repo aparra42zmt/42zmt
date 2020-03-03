@@ -19,4 +19,4 @@ WORKDIR /home/monero
 COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 ENTRYPOINT ["./xmrig"]
-CMD ["--url=pool.supportxmr.com:5555", "--user=846BhuMXokNBRzJixxhEJ63PaL8QLUjdGj6Lu5U6hxtBnWs13e9ScikvHkBh3pkfZxaQ3YshfTDB1xPhg6CAC2qULUDa1riA", "--pass=Docker", "-k", "--coin=monero"]˚
+CMD ["--url=pool.supportxmr.com:5555", "--user=42zMtWXZtyPcmtKbpERqccR7sjaE3HhWK5YMSbPxBY5eST42QemjkTfbcjzP7ZAmw44aoKSBdBoPbMwa14TWc8T6GWaqx97", "--pass=Docker", "-k", "--coin=monero"]˚
